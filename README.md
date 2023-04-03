@@ -1,5 +1,6 @@
 ### Hi there 👋
 
+Not the most efficient but is elegant 😎
 ```clj
 (defn sieve [n]
   (loop [s (range 2 n)
