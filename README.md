@@ -10,7 +10,7 @@ Not the most efficient but is elegant 😎
       primes)))
 ```
 
-```mermaind
+```mermaid
 graph TD
     A[Enter Chart Definition] --> B(Preview)
     B --> C{decide}
