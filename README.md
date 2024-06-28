@@ -9,14 +9,3 @@ Not the most efficient but is elegant 😎
       (recur (remove #(zero? (mod % c)) s) (conj primes c))
       primes)))
 ```
-
-```mermaid
-graph TD
-    A[Enter Chart Definition] --> B(Preview)
-    B --> C{decide}
-    C --> D[Keep]
-    C --> E[Edit Definition]
-    E --> B
-    D --> F[Save Image and Code]
-    F --> B
-```
